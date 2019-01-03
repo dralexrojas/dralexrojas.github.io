@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>AROJAS GITHUB PAGE</title>
+    <title>AROJAS PROJECT PAGE</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
@@ -16,7 +16,6 @@
         <div id="name-box">
             <h1>Alejandro Rojas</h1>
         </div>
-        
         <div id="nav-box">
             <a href="portfolio.html">Portfolio</a>
             <a href="contact.html">Contact</a>
@@ -24,20 +23,24 @@
         </div>
     </header>
 
-    <div class="main">
-            <div>
-                <img id="profilepic" src="assets/images/arojas.png">
-            </div>
-        <h2>About Me</h2>
-        <p>My name is Alejandro Rojas and I am passionate about design and functionality.  I care deeply about creating world-class, useful and
-            well-designed solutions that help people, organizations and businesses achieve their goals. User experience is key. I enjoy being 
-            involved at all stages of a project: from the initial idea, to wire frame sketches, to the initial front-end build and eventual 
-            project/product launch.  Born and raised in Southern California I enjoy listening to music, playing golf, watching documentaries, 
-            spending time with my family and friends.
-        </p>
+    <div class="container">
+            <form action="action_page.php">
+          
+              <label for="name">First & Last Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your full name..">
+          
+              <label for="email">Email</label>
+              <input type="text" id="email" name="email" placeholder="Your email...">
 
-
-    </div>
+              </select>
+          
+              <label for="subject">Subject</label>
+              <textarea id="subject" name="subject" placeholder="Write something..." style="height:200px"></textarea>
+          
+              <input type="submit" value="Submit">
+          
+            </form>
+          </div>
     
 </body>
 </html>
