@@ -67,6 +67,15 @@ button:focus {
 .mt-50 {
   margin-top: 50px; }
 
+.profile_img {
+  border: 5px solid #854fee;
+  border-radius: 25%;
+}
+
+.profile {
+  border-radius: 23%;
+}
+
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
 .section_gap {
