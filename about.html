@@ -6,7 +6,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="icon" href="img/favicon.png" type="image/png">
-	<title>Contact Me</title>
+	<title>About Us</title>
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="vendors/linericon/style.css">
@@ -26,6 +26,7 @@
 			<nav class="navbar navbar-expand-lg navbar-light">
 				<div class="container">
 					<!-- Brand and toggle get grouped for better mobile display -->
+					<a class="navbar-brand logo_h" href="index.html"><img src="img/logo.png" alt=""></a>
 					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
 					 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 						<span class="icon-bar"></span>
@@ -36,9 +37,9 @@
 					<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
 						<ul class="nav navbar-nav menu_nav justify-content-end">
 							<li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-							<li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+							<li class="nav-item active"><a class="nav-link" href="about.html">About</a></li>
 							<li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
-							<li class="nav-item active"><a class="nav-link" href="contact.html">Contact</a></li>
+							<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
 						</ul>
 					</div>
 				</div>
@@ -46,53 +47,39 @@
 		</div>
 	</header>
 	<!--================ End Header Area =================-->
-    
-    <!--================Contact Area =================-->
-    <section class="contact_area section_gap">
+
+   <!--================ Start About Us Area =================-->
+	<section class="about_area section_gap">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-3">
-                    <div class="contact_info">
-                        <div class="info_item">
-                            <i class="lnr lnr-home"></i>
-                            <h6>Los Angeles, California, USA</h6>
-                        </div>
-                        <div class="info_item">
-                            <i class="lnr lnr-phone-handset"></i>
-                            <h6><a href="#">626.272.5378</a></h6>
-                        </div>
+            <div class="row justify-content-start align-items-center">
+                <div class="col-lg-5">
+                    <div class="about_img">
+                        <img class="" src="img/about-us.png" alt="">
                     </div>
                 </div>
-                <div class="col-lg-9">
-                    <form class="row contact_form" action="https://formspree.io/arojas@greenvalecs.com" method="post" id="contactForm" novalidate="novalidate">
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name">
-                            </div>
-                            <div class="form-group">
-                                <input type="email" class="form-control" id="email" name="email" placeholder="Enter email address">
-                            </div>
-                            <div class="form-group">
-                                <input type="text" class="form-control" id="subject" name="subject" placeholder="Enter Subject">
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <textarea class="form-control" name="message" id="message" rows="1" placeholder="Enter Message"></textarea>
-                            </div>
-                        </div>
-                        <div class="col-md-12 text-right">
-                            <button type="submit" value="submit" class="primary_btn"> 
-                                <span>Send Message</span>
-                            </button>
-                        </div>
-                    </form>
+
+                <div class="offset-lg-1 col-lg-5">
+                        <div class="main_title text-left">
+                            <h2>a little <br>
+                                bit about <br>
+                                me...</h2>
+                            <p>
+                                My name is Alejandro Rojas and I am passionate about design and functionality.  I care deeply about creating world-class, useful and
+                                well-designed solutions that help people, organizations and businesses achieve their goals. User experience is key. I enjoy being 
+                                involved at all stages of a project: from the initial idea, to wire frame sketches, to the initial front-end build and eventual 
+                                project/product launch.
+                            </p>
+                            <p>
+                                Born and raised in Southern California I enjoy listening to music, playing golf, watching documentaries, 
+                                spending time with my family and friends.
+                            </p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-    <!--================Contact Area =================-->
-
+    <!--================ End About Us Area =================-->
+    
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="js/jquery-3.2.1.min.js"></script>

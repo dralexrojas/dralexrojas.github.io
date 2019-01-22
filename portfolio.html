@@ -1,67 +1,234 @@
-<!DOCTYPE <!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>AROJAS PROJECT PAGE</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
-    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Indie+Flower|Permanent+Marker|Shadows+Into+Light"
-        rel="stylesheet">
-
-
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="icon" href="img/favicon.png" type="image/png">
+	<title>Portfolio</title>
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="vendors/linericon/style.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<link rel="stylesheet" href="vendors/nice-select/css/nice-select.css">
+	<!-- main css -->
+	<link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <header class="header">
-        <div id="name-box">
-            <h1>Alejandro Rojas</h1>
+
+	<!--================ Start Header Area =================-->
+	<header class="header_area">
+		<div class="main_menu">
+			<nav class="navbar navbar-expand-lg navbar-light">
+				<div class="container">
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+					 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+						<ul class="nav navbar-nav menu_nav justify-content-end">
+							<li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+							<li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+							<li class="nav-item active"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+							<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</div>
+	</header>
+	<!--================ End Header Area =================-->
+
+	<!--================Start Portfolio Area =================-->
+	<section class="portfolio_area section_gap_top" id="portfolio">
+        <div class="container">
+			<h1>PORTFOLIO</h1>
+            <div class="filters-content">
+				<div class="row portfolio-grid justify-content-center">
+					<div class="col-lg-4 col-md-6 all latest">
+						<div class="portfolio_box">
+							<div class="single_portfolio">
+								<img class="img-fluid w-100" src="img/portfolio/p1.jpeg" alt="flyordrive">
+								<div class="overlay"></div>
+								<a href="https://dralexrojas.github.io/flyorddriveapp/" target="_blank">
+									<div class="icon">
+										<span class="lnr lnr-cross"></span>
+									</div>
+								</a>
+							</div>
+							<div class="short_info">
+								<h4><a href="portfolio-details.html">Fly or Drive</a></h4>
+								<p>An app that tells you if it's cheaper to fly or drive.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 all popular">
+						<div class="portfolio_box">
+							<div class="single_portfolio">
+								<img class="img-fluid w-100" src="img/portfolio/p2.jpg" alt="bamazon">
+								<div class="overlay"></div>
+								<a href="https://dralexrojas.github.io/bamazon/" target="_blank">
+									<div class="icon">
+										<span class="lnr lnr-cross"></span>
+									</div>
+								</a>
+							</div>
+							<div class="short_info">
+								<h4><a href="portfolio-details.html">Bamazon</a></h4>
+								<p>A CLI app designed to create an Amazon-like storefront using Node.js and MySQL.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 all latest">
+						<div class="portfolio_box">
+							<div class="single_portfolio">
+								<img class="img-fluid w-100" src="img/portfolio/p3.png" alt="trivia">
+								<div class="overlay"></div>
+								<a href="https://dralexrojas.github.io/TriviaGame" target="_blank">
+									<div class="icon">
+										<span class="lnr lnr-cross"></span>
+									</div>
+								</a>
+							</div>
+							<div class="short_info">
+								<h4><a href="portfolio-details.html">Trivia Game</a></h4>
+								<p>A trivia game testing your musical knowledge of The Smiths.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 all popular">
+						<div class="portfolio_box">
+							<div class="single_portfolio">
+								<img class="img-fluid w-100" src="img/portfolio/p4.jpeg" alt="friendfinder">
+								<div class="overlay"></div>
+								<a href="https://ppfriendfinder.herokuapp.com/" target="_blank">
+									<div class="icon">
+										<span class="lnr lnr-cross"></span>
+									</div>
+								</a>
+							</div>
+							<div class="short_info">
+								<h4><a href="portfolio-details.html">Friend Finder</a></h4>
+								<p>Take the survey and find your best friend match compared to other survey takers.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 all following">
+						<div class="portfolio_box">
+							<div class="single_portfolio">
+								<img class="img-fluid w-100" src="img/portfolio/p5.jpg" alt="liribot">
+								<div class="overlay"></div>
+								<a href="https://dralexrojas.github.io/liri-node-app/" target="_blank">
+									<div class="icon">
+										<span class="lnr lnr-cross"></span>
+									</div>
+								</a>
+							</div>
+							<div class="short_info">
+								<h4><a href="portfolio-details.html">LIRI Bot</a></h4>
+								<p>LIRI is like iPhone’s SIRI. However, while SIRI is a Speech Interpretation and Recognition Interface, LIRI is a Language Interpretation and Recognition Interface. LIRI will be a command line node app that takes in parameters and gives you back data.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 all upcoming">
+						<div class="portfolio_box">
+							<div class="single_portfolio">
+								<img class="img-fluid w-100" src="img/portfolio/p6.jpg" alt="">
+								<div class="overlay"></div>
+								<a href="img/portfolio/p6.jpg" class="img-gal">
+									<div class="icon">
+										<span class="lnr lnr-cross"></span>
+									</div>
+								</a>
+							</div>
+							<div class="short_info">
+								<h4><a href="portfolio-details.html">COMING SOON</a></h4>
+								<p>Kinder readiness app for pre-Kinder students.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 all upcoming following">
+						<div class="portfolio_box">
+							<div class="single_portfolio">
+								<img class="img-fluid w-100" src="img/portfolio/p6.jpg" alt="">
+								<div class="overlay"></div>
+								<a href="img/portfolio/p6.jpg" class="img-gal">
+									<div class="icon">
+										<span class="lnr lnr-cross"></span>
+									</div>
+								</a>
+							</div>
+							<div class="short_info">
+								<h4><a href="portfolio-details.html">COMING SOON</a></h4>
+								<p>Rock, Paper, Scissors Game</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 all following">
+						<div class="portfolio_box">
+							<div class="single_portfolio">
+								<img class="img-fluid w-100" src="img/portfolio/p6.jpg" alt="">
+								<div class="overlay"></div>
+								<a href="img/portfolio/p6.jpg" class="img-gal">
+									<div class="icon">
+										<span class="lnr lnr-cross"></span>
+									</div>
+								</a>
+							</div>
+							<div class="short_info">
+								<h4>COMING SOON</h4>
+								<p>Animated, portfolio</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 all upcoming">
+						<div class="portfolio_box">
+							<div class="single_portfolio">
+								<img class="img-fluid w-100" src="img/portfolio/p6.jpg" alt="">
+								<div class="overlay"></div>
+								<a href="img/portfolio/p6.jpg" class="img-gal">
+									<div class="icon">
+										<span class="lnr lnr-cross"></span>
+									</div>
+								</a>
+							</div>
+							<div class="short_info">
+								<h4><a href="portfolio-details.html">COMING SOON</a></h4>
+								<p>Animated, portfolio</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
         </div>
-        <div id="nav-box">
-            <a href="portfolio.html">Portfolio</a>
-            <a href="contact.html">Contact</a>
-            <a href="index.html">About</a>
-        </div>
-    </header>
-
-    <div class="gallery"> <a href="https://dralexrojas.github.io/flyorddriveapp/">
-            <img src="assets/images/hangman.jpeg" alt="Fly or Drive" width="300" height="200">
-        </a>
-        <div class="desc">FLY or DRIVE</div>
-    </div>
-
-    <div class="gallery"> <a href=" https://dralexrojas.github.io/bamazon/">
-            <img src="assets/images/rpg.jpg" alt="Bamazon" width="300" height="200">
-        </a>
-        <div class="desc">Bamazon CLI App</div>
-    </div>
-
-    <div class="gallery"> <a href="https://dralexrojas.github.io/TriviaGame">
-            <img src="assets/images/trivia.png" alt="Trivia" width="300" height="200">
-        </a>
-        <div class="desc">TRIVIA GAME</div>
-    </div>
-
-    <div class="gallery">
-        <img src="assets/images/rockpapersci.jpg" alt="Rock Paper Scissors" width="300" height="200">
-        </a>
-        <div class="desc">ROCK PAPER SCISSORS</div>
-    </div>
-
-    <div class="gallery"> <a href="https://ppfriendfinder.herokuapp.com/">
-            <img src="assets/images/friendfinder.jpeg" alt="Freind Finder" width="300" height="200">
-        </a>
-        <div class="desc">FRIEND FINDER</div>
-    </div>
-
-    <div class="gallery"> <a href="https://dralexrojas.github.io/liri-node-app/">
-            <img src="assets/images/widget.jpg" alt="Widget" width="300" height="200">
-        </a>
-        <div class="desc">LIRI Bot CLI App</div>
-    </div>
-
+    </section>
+    <!--================End Portfolio Area =================-->
+   
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/stellar.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="vendors/nice-select/js/jquery.nice-select.min.js"></script>
+    <script src="vendors/isotope/imagesloaded.pkgd.min.js"></script>
+    <script src="vendors/isotope/isotope-min.js"></script>
+    <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+    <script src="js/jquery.ajaxchimp.min.js"></script>
+    <script src="js/mail-script.js"></script>
+    <!--gmaps Js-->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
+    <script src="js/gmaps.min.js"></script>
+    <script src="js/theme.js"></script>
 </body>
 
 </html>
