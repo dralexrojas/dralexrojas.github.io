@@ -1553,6 +1553,12 @@ h6 {
 
 /* Start Portfolio Area css
 ============================================================================================ */
+.img-fluid{
+  max-width: 350px;
+  max-height: 200px;
+  object-fit: contain;
+}
+
 .portfolio_area {
   padding-bottom: 120px; }
   @media (max-width: 991px) {
